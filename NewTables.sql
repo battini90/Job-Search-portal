@@ -7,8 +7,8 @@ CONSTRAINT Technology_pkey PRIMARY KEY (Id));
 -- Table Tech_information
 create table tech_information(
 Id bigserial not null,
-state varchar(50),
-location varchar (50),
+company_name varchar(50),
+state varchar (50),
 Java_position varchar(50),
 job_description varchar(50),
 Job_url varchar(25),
